@@ -1,0 +1,11 @@
+public class minutes {
+    public static void main(long n)
+    {
+        long years,days;
+        years=n/(24*60*365);
+        days=(n-(years*24*60*365))/(60*24);
+        System.out.println(n+" minutes is approximately "+years+" years and "+days+" days ");
+    }
+    
+    
+}
